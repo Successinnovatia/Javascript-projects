@@ -10,4 +10,6 @@ const handleChange = (e) => {
 
 inputs.forEach((input) => input.addEventListener("change", handleChange));
 
+inputs.forEach((input) => input.addEventListener("input", handleChange));
+
 inputs.forEach((input) => input.addEventListener("mousemove", handleChange));
